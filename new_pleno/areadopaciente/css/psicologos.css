@@ -1,0 +1,124 @@
+.backGreen {
+  background-color: #1ca35e;
+  border-radius: 0px 0px 16px 16px;
+  padding: 3% 0%;
+}
+input.btn-green {
+  background-color: #1ca35e !important;
+  color: #FFF !important;
+  width: 10% !important;
+}
+.backGreen p.h2 {
+  color: #FFF;
+  margin-bottom:0;
+}
+.parcelamento.text-muted.order-3.order-md-2 {
+  margin-top: 8%;
+  text-align: center;
+}
+main .container .row .col .card .card-body {
+  padding-bottom: 5px;
+}
+
+/* escolher-categoria */
+#arrowTema {
+  cursor: pointer;
+}
+.ls-select.temas {
+  position: relative;
+  width: 17%;
+  background: #FFFFFF;
+  box-shadow: 1px 1px 7px -1px grey;
+  height: 40px;
+  border-radius: 6px;
+  color: #000;
+  border: 0;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  }
+  
+  .ls-select.temas p.txt
+  {
+  margin-bottom:0;
+  padding: 0% 0% 0% 4%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  font-size: 16px;
+  }
+  .ls-select.temas .control
+  {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  }
+
+  .ls-select.temas .control img
+  {
+  width:auto;
+  }
+  
+  .ls-select.temas .down {
+  width: 100%;
+  background: #FFF;
+  box-shadow: 0px 0px 2px rgb(0 0 0 / 30%);
+  border-radius: 6px;
+  bottom: 0;
+  left: 0;
+  position: relative;
+  z-index: 10 !important;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  }
+  
+  .ls-select.temas .down label
+  {
+  margin-bottom: 0;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #DDD;  
+  transition: all .25s ease-in;
+  }
+  .ls-select.temas .down label:hover
+  {
+  background: #1ca35e;
+  color: #FFF;
+  }
+  
+  .ls-select.temas .down label p
+  {
+  margin-bottom: 0;
+  font-weight: 400;
+  width: 100%;
+  padding: 2% 1%;
+  font-size: 16px;
+  }
+  
+  .ls-select.temas .down label input
+  {
+  opacity: 0;
+  }
+  
+  
+  @media only screen and (min-width:320px) and (max-width: 768px) {
+    .ls-select.temas {
+      width: 80% !important;
+    }
+    html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-8 .card.search .frase {
+      width: 90%;
+      text-align: center;
+    }
+  }
+  
+  /* end escolher-categoria */
